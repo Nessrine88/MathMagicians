@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "MathMagicians",
+			"path": "."
+		},
+		{
+			"name": ".github",
+			"path": "../../../../../math-magicians-development/.github"
+		}
+	],
+	"settings": {}
+}
