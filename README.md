@@ -100,7 +100,7 @@ Clone this repository to your desired folder
 
 To run the project, execute the following command:
 
-Open Html file
+npm run start
 ### Run tests
 
 Tests for this project will be added in the future.
@@ -180,14 +180,13 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> - **How to update user profiles?**
+> - **Can I clear my calculation?**
 
-  - To update user profiles, users can navigate to the "Profile" section and click the "Edit Profile" button.
-How to view the overall leaderboard?
+  - Absolutely! The Math Calculator App provides a "C" button that clears the input and resets the calculator to its initial state.
 
->- **How to view the overall leaderboard?**
+>- **Is there a memory feature for storing values?**
 
-  - Users can access the leaderboard from the homepage by clicking the "Leaderboard" link.
+  - At this time, the Math Calculator App does not include a memory feature for storing values. However, this feature may be considered in future updates.
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
