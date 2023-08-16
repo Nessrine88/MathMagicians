@@ -1,15 +1,12 @@
 import React from 'react';
 
+import Operations from './operations';
+
 const Calculator = () => (
 
   <table className="table">
     <tbody>
-      <tr>
-        <td>Ac</td>
-        <td>+/-</td>
-        <td>%</td>
-        <td>/</td>
-      </tr>
+      <Operations />
       <tr>
         <td>7</td>
         <td>8</td>
