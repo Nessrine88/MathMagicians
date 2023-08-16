@@ -1,19 +1,5 @@
 import React from 'react';
 
-const result = 0;
-
-const Display = () => (
-  <div className="tableContainer">
-    <table className="table">
-      <tbody>
-        <tr>
-          <th className="TaHeader" colSpan={4}>{result}</th>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-);
-
 const Calculator = () => (
 
   <table className="table">
@@ -52,4 +38,4 @@ const Calculator = () => (
 
 );
 
-export { Calculator, Display };
+export default Calculator;
