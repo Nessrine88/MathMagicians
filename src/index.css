@@ -25,3 +25,40 @@ code {
     'Courier New',
     monospace;
 }
+
+.table {
+  width: 40%;
+  height: 800%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table th,
+td {
+  width: auto;
+  border: solid 1px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #e0e0e0;
+  margin-top: 10vh;
+}
+
+.TaHeader {
+  background-color: #858694 !important;
+  text-align: right !important;
+  border: 5px solid black;
+}
+
+td:nth-child(4) {
+  background-color: #f5913e;
+}
+
+.equalCell {
+  background-color: #f5913e;
+}
+
+.tableContainer {
+  margin-top: 15vh;
+}
