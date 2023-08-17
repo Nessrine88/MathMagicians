@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Operations from './operations';
+import Operations from '../operations';
+import operate from '../logic/calculate';
 
 const Calculator = () => (
 
@@ -8,7 +9,7 @@ const Calculator = () => (
     <tbody>
       <Operations />
       <tr>
-        <td>7</td>
+        <td onClick={operate}>7</td>
         <td>8</td>
         <td>9</td>
         <td>*</td>
