@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Operations from './operations';
 import calculate from '../logic/calculate';
+import Quotes from './ApiData';
 
 const Calculator = () => {
   const [calculatorState, setCalculatorState] = useState({
@@ -56,7 +57,12 @@ const Calculator = () => {
           </tr>
         </tbody>
       </table>
+      <div className="quotesDiv">
+        <Quotes />
+      </div>
+
     </div>
+
   );
 };
 

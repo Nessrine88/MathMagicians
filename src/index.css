@@ -6,10 +6,11 @@
 
 .table {
   width: 40%;
-  height: 800%;
+  height: 30%;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 3px 3px 5px 2px rgb(254, 255, 249);
 }
 
 .table th,
@@ -39,4 +40,12 @@ td:nth-child(4) {
 
 .tableContainer {
   margin-top: 15vh;
+}
+
+td:hover {
+  background-color: #d79922;
+}
+
+body {
+  background-color: black;
 }

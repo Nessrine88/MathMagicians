@@ -11,7 +11,7 @@ const Operations = ({ calculatorState }) => {
     displayValue = calculatorState.total || '0';
   }
 
-  return displayValue;
+  return <div>{displayValue}</div>;
 };
 
 Operations.propTypes = {
