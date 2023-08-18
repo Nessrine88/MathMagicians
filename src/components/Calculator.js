@@ -56,7 +56,9 @@ const Calculator = () => {
           </tr>
         </tbody>
       </table>
+
     </div>
+
   );
 };
 

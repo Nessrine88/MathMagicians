@@ -5,8 +5,8 @@
 }
 
 .table {
-  width: 40%;
-  height: 800%;
+  width: 50%;
+  height: 30%;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
@@ -24,19 +24,28 @@ td {
 }
 
 .TaHeader {
-  background-color: #858694 !important;
+  background-color: #747474 !important;
   text-align: right !important;
   color: white;
 }
 
 td:nth-child(4) {
-  background-color: #f5913e;
+  background-color: #ff652f;
 }
 
 .equalCell {
-  background-color: #f5913e;
+  background-color: #ff652f;
 }
 
 .tableContainer {
   margin-top: 15vh;
+}
+
+td:hover {
+  background-color: #d79922;
+}
+
+body {
+  background-color: #14a76c;
+  display: flex;
 }
