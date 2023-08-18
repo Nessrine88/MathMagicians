@@ -8,23 +8,16 @@
 .quotesDiv {
   display: flex;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
   border-radius: 10%;
   border: 1px solid;
   margin-top: 20px;
-  margin-left: 0;
   font-family: 'Mukta', sans-serif;
   background-color: #ffe400;
   justify-content: center;
   align-items: center;
   padding: 10px;
-}
-
-div {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-  text-align: right;
+  margin-left: auto;
 }
 
 ul {
@@ -37,4 +30,8 @@ li {
   margin-left: 0;
   margin-right: 30px;
   color: #272727;
+}
+
+div {
+  margin-top: 30px;
 }
