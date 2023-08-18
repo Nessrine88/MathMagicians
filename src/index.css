@@ -1,3 +1,9 @@
+* {
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .table {
   width: 40%;
   height: 800%;
@@ -20,6 +26,7 @@ td {
 .TaHeader {
   background-color: #858694 !important;
   text-align: right !important;
+  color: white;
 }
 
 td:nth-child(4) {

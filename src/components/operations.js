@@ -1,11 +1,25 @@
-const Operations = () => (
+import PropTypes from 'prop-types';
 
-  <tr>
-    <td>Ac</td>
-    <td>+/-</td>
-    <td>%</td>
-    <td>/</td>
-  </tr>
-);
+const Operations = ({ calculatorState }) => {
+  let displayValue = '';
+
+  if (calculatorState.next !== null) {
+    displayValue = `${calculatorState.total || ''} ${calculatorState.operation || ''} ${calculatorState.next}`;
+  } else if (calculatorState.operation !== null) {
+    displayValue = `${calculatorState.total || '0'} ${calculatorState.operation}`;
+  } else {
+    displayValue = calculatorState.total || '0';
+  }
+
+  return displayValue;
+};
+
+Operations.propTypes = {
+  calculatorState: PropTypes.shape({
+    total: PropTypes.string,
+    next: PropTypes.string,
+    operation: PropTypes.string,
+  }).isRequired,
+};
 
 export default Operations;
