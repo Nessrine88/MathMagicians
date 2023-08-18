@@ -14,11 +14,10 @@
   margin-top: 20px;
   margin-left: 0;
   font-family: 'Mukta', sans-serif;
-  background-color: #f5913e;
+  background-color: #ffe400;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  box-shadow: 3px 3px 5px 2px rgb(254, 255, 249);
 }
 
 div {
@@ -37,4 +36,5 @@ ul {
 li {
   margin-left: 0;
   margin-right: 30px;
+  color: #272727;
 }
